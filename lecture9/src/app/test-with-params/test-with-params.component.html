@@ -1,0 +1,21 @@
+<p>test-with-params works!</p>
+
+<div>id: {{id}}</div>
+<div>page: {{page}}</div>
+
+<div>data: {{data}}</div>
+
+<div>data: {{data | json}}</div>
+
+
+<div>
+    <a [routerLink]="['child-1']">Child 1</a>
+</div>
+
+<div>
+    <a [routerLink]="['child-2']">Child 2</a>
+</div>
+
+<img src="" alt="">
+<img src="" alt="">
+<router-outlet></router-outlet>
